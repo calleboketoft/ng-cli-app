@@ -1,5 +1,7 @@
 # MyApp
 
+The purpose of this app was to see how to publish Angular modules to have them easily consumed. As it turns out, the very smoothest way is to simply expose the necessary parts through an index.ts in the root of the module. Clone and >npm install this and then take a look at how the module "my-module" is handled in package.json and app.module.ts.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.0-beta.1.
 
 ## Development server
